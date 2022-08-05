@@ -2,23 +2,21 @@
 
 ## Description
 
-TODO: Describe your charm in a few paragraphs of Markdown
+This project contains libraries for the grafana-auth relationship. It contains both the provider and the requirer side of them.
+
+> Note: The charm located here is a placeholder charm.
 
 ## Usage
 
-TODO: Provide high-level usage, such as required config or relations
+This library can be used by any charm requiring or providing this interface. From the charm's
+root directory, run:
 
+```bash
+todo
+```
 
 ## Relations
 
-TODO: Provide any relations which are provided or required by your charm
-
-## OCI Images
-
-TODO: Include a link to the default image your charm uses
-
-## Contributing
-
-Please see the [Juju SDK docs](https://juju.is/docs/sdk) for guidelines
-on enhancements to this charm following best practice guidelines, and
-`CONTRIBUTING.md` for developer guidance.
+```bash
+juju relate <grafana-auth provider charm> <grafana-auth requirer charm>
+```
